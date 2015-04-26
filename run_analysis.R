@@ -83,4 +83,4 @@ head(DFReduce)
 # Calculate average of each variable for each activity and each subject
 dfproc <- aggregate(DFReduce[,4:69], by=list(ActivityID = DFReduce$ActivityLabels, SubjectID = DFReduce$SubjectID), FUN="mean")
 
-
+write.table(dfproc,file="UCI_HAR_reduced.txt",row.names=FALSE)
