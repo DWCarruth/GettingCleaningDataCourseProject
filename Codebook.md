@@ -1,5 +1,5 @@
 # A Reduced Version of the Human Activity Recognition Using Smartphones Dataset
-'''
+```
 ================================================================
 Original Dataset Available from:
 http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones 
@@ -11,7 +11,7 @@ Via Opera Pia 11A, I-16145, Genoa, Italy.
 activityrecognition@smartlab.ws
 www.smartlab.ws
 ==================================================================
-'''
+```
 
 
 # CODEBOOK FOR REDUCED UCI HAR DATASET
